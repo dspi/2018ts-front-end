@@ -1,0 +1,77 @@
+body{
+	/*https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-not-stretch*/
+    background-image: url(ContactBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.help-block{
+	background-color:grey;
+	color:white !important;
+	margin-top:0 !important;
+}
+
+.form-control{
+	border-radius:0 !important;
+}
+
+#popover-positioned-bottom{
+	margin-top: 0;
+}
+#popover-positioned-bottom > .arrow{
+	left: 10% !important;
+}
+
+.main{
+	margin-top:90px;
+}
+
+.navbar-brand {
+  background: url(logo.png) center / contain no-repeat;
+  width: 100px;
+}
+
+.formHeader{
+	padding-top: 25px;
+}
+
+.formBackground{
+	margin-top: 35px;
+	padding-top: 25px;
+	margin-bottom: 25px;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.forBackgroundImageLength{
+	margin-bottom: 200px;
+}
+
+/*feedback*/
+.has-feedback label ~ .form-control-feedback{
+	margin-right:15px;
+	    top: 8px !important;
+}
+.has-success .form-control-feedback {
+    color: #36b138 !important;
+}
+
+.contactInput{
+    background-color: inherit;
+    color: inherit;
+    border:none !important;
+    box-shadow: none !important;
+    padding: 5px 0;
+}
+
+.contactHeader {font-size:2.4rem; color:white;}
+/*Bootstrap 3 breakpoints*/
+@media (min-width: 480px) {
+.contactHeader {font-size:3rem;}
+}
+@media (min-width: 768px) {  
+  .contactHeader {font-size:4rem;}
+}
+@media (min-width: 992px) { 
+  .contactHeader {font-size:6rem;}
+}
+ 
